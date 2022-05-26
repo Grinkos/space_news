@@ -1,0 +1,147 @@
+body{
+    background-image: url("Space.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    width: 800px;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+.POSTS{
+    width: 800px;
+}
+.post{
+    background-color: #2e0a73;
+    display: flex;
+    padding: 15px;
+    border: 2px solid #e57b0d;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.postSimple{
+    background-color: #2e0a73;
+    display: flex;
+    padding: 15px;
+    border: 2px solid #e57b0d;
+    margin-top: 15px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.Zag{
+    color: #09ee89;
+    font-family: 'Lobster', cursive;
+}
+.navbar {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: #0d042f;
+    padding: 0.6%;
+    border: 2px solid #282c34;
+    position: fixed;
+}
+.nav{
+    color: #0d042f;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #abefce;
+    border: 2px solid #0d042f;
+    border-radius: 5px;
+}
+.navbar__links{
+    margin-left: auto;
+}
+.start__wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.start{
+    padding: 10px;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+.start__current {
+    border: 2px solid orange;
+    font-weight: bold;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #e57b0d;
+    background-color: rgb(46, 10, 115);
+    border-radius: 20px;
+}
+#listAbout{
+    padding: 50px;
+}
+.info{
+    color: azure;
+    font-size: 20px;
+}
+.error{
+    color: #09ee89;
+    font-size: 40px;
+}
+
+.postImage{
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+    box-shadow: inset 0 0 15px #060218;
+}
+.Sort{
+    height: 25px;
+    margin-left: 10px;
+    background-color: #abefce;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.title{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #eccc2e;
+}
+.Title{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #eccc2e;
+}
+.Title:hover{
+    color: #09ee89;
+}
+.date{
+    margin-top: 180px;
+    color: #09ee89;
+}
+.summary{
+    margin-top: 10px;
+    color: #dfc5ee;
+}
+.Istok{
+    color: #09ee89;
+    margin-top: 10px;
+}

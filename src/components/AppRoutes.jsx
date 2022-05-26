@@ -8,10 +8,11 @@ import PostPage from "./PostPage";
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route path="/" element={<News/>}/>
+            <Route exact path="/" element={<News/>}/>
             <Route path="/about" element={<About/>}/>
-            <Route exact path="/news/:id" element={<PostPage/>}/>
-            <Route exact path="/news" element={<News/>}/>
+            <Route exact path="/space_news" element={<News />}/>
+            <Route  path="/news/:id" element={<PostPage/>}/>
+            <Route  path="/news" element={<News/>}/>
             <Route path="*" element={<Error/>}/>
         </Routes>
     );

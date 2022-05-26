@@ -7,14 +7,16 @@ import PostPage from "./PostPage";
 
 const AppRoutes = () => {
     return (
-        <Routes>
-            <Route exact path="/" element={<News/>}/>
-            <Route path="/about" element={<About/>}/>
-            <Route exact path="/space_news" element={<News />}/>
-            <Route exact path="/news/:id" element={<PostPage/>}/>
-            <Route exact path="/news" element={<News/>}/>
-            <Route path="*" element={<Error/>}/>
-        </Routes>
+        <main>
+            <Routes>
+                <Route exact path="/" element={<News/>}/>
+                <Route path="/about" element={<About/>}/>
+                <Route exact path="/space_news" element={<News />}/>
+                <Route exact path="/news/:id" element={<PostPage/>}/>
+                <Route exact path="/news" element={<News/>}/>
+                <Route path="*" element={<Error/>}/>
+            </Routes>
+        </main>
     );
 };
 

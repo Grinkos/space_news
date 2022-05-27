@@ -13,4 +13,8 @@ export default class PostService{
         const response = await axios.get('https://api.spaceflightnewsapi.net/v3/articles?'+ "&title_contains=space")
         return response;
     }
+    static async SearchTitleSummary(content){
+        const response = await axios.get('https://api.spaceflightnewsapi.net/v3/articles?'+"title_contains="+content+"&summary_contains="+content)
+        return response;
+    }
 }

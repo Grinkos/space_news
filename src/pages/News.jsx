@@ -5,6 +5,8 @@ import PostService from "../API/PostService";
 import NewsFilter from "../components/NewsFilter";
 import ListNews from "../components/ListNews";
 import Loader from "../components/UI/Loader/Loader";
+import {useParams} from "react-router-dom";
+import PostItem from "../components/PostItem";
 
 
 function News() {
